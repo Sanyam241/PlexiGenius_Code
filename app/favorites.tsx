@@ -26,25 +26,25 @@ const coffeeData: CoffeeItem[] = [
     id: '1',
     name: 'Arabica',
     price: '$18',
-    image: require('../../assets/images/arabica.png'),
+    image: require('../assets/images/arabica.png'),
   },
   {
     id: '2',
     name: 'Robusta',
     price: '$20',
-    image: require('../../assets/images/robusta.png'),
+    image: require('../assets/images/robusta.png'),
   },
   {
     id: '3',
     name: 'Excelsa',
     price: '$15',
-    image: require('../../assets/images/excelsa.png'),
+    image: require('../assets/images/excelsa.png'),
   },
   {
     id: '4',
     name: 'Liberica',
     price: '$12',
-    image: require('../../assets/images/liberica.png'),
+    image: require('../assets/images/liberica.png'),
   },
 ];
 

@@ -27,7 +27,7 @@ const orders: Order[] = [
     qty: 2,
     price: 40,
     status: "in progress",
-    image: require("../../assets/images/robusta.png"),
+    image: require("../assets/images/robusta.png"),
   },
   {
     id: "2",
@@ -35,7 +35,7 @@ const orders: Order[] = [
     qty: 2,
     price: 24,
     status: "in progress",
-    image: require("../../assets/images/liberica.png"),
+    image: require("../assets/images/liberica.png"),
   },
   {
     id: "3",
@@ -43,7 +43,7 @@ const orders: Order[] = [
     qty: 2,
     price: 24,
     status: "delivered",
-    image: require("../../assets/images/excelsa.png"),
+    image: require("../assets/images/excelsa.png"),
   },
   {
     id: "4",
@@ -51,7 +51,7 @@ const orders: Order[] = [
     qty: 2,
     price: 24,
     status: "delivered",
-    image: require("../../assets/images/liberica.png"),
+    image: require("../assets/images/liberica.png"),
   },
   {
     id: "5",
@@ -59,7 +59,7 @@ const orders: Order[] = [
     qty: 2,
     price: 24,
     status: "delivered",
-    image: require("../../assets/images/robusta.png"),
+    image: require("../assets/images/robusta.png"),
   },
 ];
 

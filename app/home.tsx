@@ -22,22 +22,22 @@ export default function HomeScreen() {
     {
       name: "Arabica",
       price: "$18",
-      image: require("../../assets/images/arabica.png"),
+      image: require("../assets/images/arabica.png"),
     },
     {
       name: "Robusta",
       price: "$20",
-      image: require("../../assets/images/robusta.png"),
+      image: require("../assets/images/robusta.png"),
     },
     {
       name: "Excelsa",
       price: "$15",
-      image: require("../../assets/images/excelsa.png"),
+      image: require("../assets/images/excelsa.png"),
     },
     {
       name: "Liberica",
       price: "$12",
-      image: require("../../assets/images/liberica.png"),
+      image: require("../assets/images/liberica.png"),
     },
   ];
 
@@ -50,7 +50,7 @@ export default function HomeScreen() {
       >
         <View style={styles.header}>
           <Image
-            source={require("../../assets/images/profile.png")}
+            source={require("../assets/images/profile.png")}
             style={styles.profileImage}
           />
           <View style={styles.userInfo}>
@@ -83,7 +83,7 @@ export default function HomeScreen() {
             </Text>
           </View>
           <Image
-            source={require("../../assets/images/coffee.png")}
+            source={require("../assets/images/coffee.png")}
             style={styles.offerImage}
           />
         </View>

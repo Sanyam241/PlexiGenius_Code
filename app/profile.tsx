@@ -48,7 +48,7 @@ const ProfileScreen = () => {
         <View style={styles.profileSection}>
           <View style={styles.avatarContainer}>
             <Image
-              source={require("../../assets/images/profile.png")}
+              source={require("../assets/images/profile.png")}
               style={styles.avatar}
             />
             <TouchableOpacity style={styles.editButton}>

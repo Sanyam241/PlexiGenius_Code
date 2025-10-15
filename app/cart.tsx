@@ -165,7 +165,7 @@ const CartScreen: React.FC = () => {
       description: "With Milk",
       price: 20,
       quantity: 1,
-      image: require("../../assets/images/robusta.png"),
+      image: require("../assets/images/robusta.png"),
     },
     {
       id: "2",
@@ -173,7 +173,7 @@ const CartScreen: React.FC = () => {
       description: "With Water",
       price: 12,
       quantity: 1,
-      image: require("../../assets/images/liberica.png"),
+      image: require("../assets/images/liberica.png"),
     },
     {
       id: "3",
@@ -181,7 +181,7 @@ const CartScreen: React.FC = () => {
       description: "With Lemon",
       price: 12,
       quantity: 1,
-      image: require("../../assets/images/liberica.png"),
+      image: require("../assets/images/liberica.png"),
     },
   ]);
 

@@ -4,14 +4,16 @@ import BottomNav from "../component/BottomNav";
 
 export default function RootLayout() {
   const pathname = usePathname();
-  if (pathname === "/") {
+
+
+  if (!pathname || pathname === "/") {
     return <Redirect href="/home" />;
   }
 
   const hideNav =
-    pathname === "/singleproduct" ||
-    pathname === "/myorder" ||
-    pathname === "/notification";
+    pathname.startsWith("/singleproduct") ||
+    pathname.startsWith("/myorder") ||
+    pathname.startsWith("/notification");
 
   return (
     <View style={styles.container}>

@@ -8,9 +8,12 @@
     "scheme": "plexigenius",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
+
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.sanyamjain241.PlexiGenius"
     },
+
     "android": {
       "adaptiveIcon": {
         "backgroundColor": "#E6F4FE",
@@ -20,12 +23,27 @@
       },
       "edgeToEdgeEnabled": true,
       "predictiveBackGestureEnabled": false,
-      "package": "com.sanyamjain241.PlexiGenius"
+      "package": "com.sanyamjain241.PlexiGenius",
+
+      "intentFilters": [
+        {
+          "action": "VIEW",
+          "data": [
+            {
+              "scheme": "plexigenius",
+              "host": "*"
+            }
+          ],
+          "category": ["BROWSABLE", "DEFAULT"]
+        }
+      ]
     },
+
     "web": {
       "output": "static",
       "favicon": "./assets/images/favicon.png"
     },
+
     "plugins": [
       "expo-router",
       [
@@ -41,12 +59,14 @@
         }
       ]
     ],
+
     "experiments": {
+      "router": true,             
       "typedRoutes": true,
       "reactCompiler": true
     },
+
     "extra": {
-      "router": {},
       "eas": {
         "projectId": "9f3f342e-7752-4a92-baa4-5f2735ddd801"
       }

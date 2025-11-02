@@ -1,17 +1,17 @@
 {
   "expo": {
-    "name": "PlexiGenius",
-    "slug": "PlexiGenius",
+    "name": "Food_Dilevery",
+    "slug": "Food_Dilevery",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
-    "scheme": "plexigenius",
+    "scheme": "Food_Dilevery",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
 
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.sanyamjain241.PlexiGenius"
+      "bundleIdentifier": "com.sanyamjain241.Food_Dilevery"
     },
 
     "android": {
@@ -23,14 +23,14 @@
       },
       "edgeToEdgeEnabled": true,
       "predictiveBackGestureEnabled": false,
-      "package": "com.sanyamjain241.PlexiGenius",
+      "package": "com.sanyamjain241.Food_Dilevery",
 
       "intentFilters": [
         {
           "action": "VIEW",
           "data": [
             {
-              "scheme": "plexigenius",
+              "scheme": "Food_Dilevery",
               "host": "*"
             }
           ],

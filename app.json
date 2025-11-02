@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "Food_Dilevery",
-    "slug": "Food_Dilevery",
+    "slug": "PlexiGenius",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -24,7 +24,6 @@
       "edgeToEdgeEnabled": true,
       "predictiveBackGestureEnabled": false,
       "package": "com.sanyamjain241.Food_Dilevery",
-
       "intentFilters": [
         {
           "action": "VIEW",
@@ -61,7 +60,7 @@
     ],
 
     "experiments": {
-      "router": true,             
+      "router": true,
       "typedRoutes": true,
       "reactCompiler": true
     },
